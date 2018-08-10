@@ -1,0 +1,29 @@
+{
+  "name": "kristijorgji/php-json-bender",
+  "type": "library",
+  "description": "A library to transform json to php array declarations.",
+  "keywords": ["php-json-bender", "json", "transform", "generate", "code", "array", "declaration"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristi Jorgji"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "kristijorgji\\PhpJsonBender\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "kristijorgji\\UnitTests\\": "tests/unit/",
+      "kristijorgji\\IntegrationTests\\": "tests/integration/",
+      "kristijorgji\\Tests\\Factories\\": "tests/factories/",
+      "kristijorgji\\Tests\\Helpers\\": "tests/helpers/"
+    }
+  },
+  "bin": ["bin/phpJsonBender"]
+}

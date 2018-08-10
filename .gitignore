@@ -1,0 +1,8 @@
+.idea/
+.vagrant/
+Input/
+Output/
+vendor/
+tests/coverage/
+desktop.ini
+.DS_Store
